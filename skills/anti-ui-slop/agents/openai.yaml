@@ -1,0 +1,4 @@
+interface:
+  display_name: "UIZZE: Stop UI Slop"
+  short_description: "Ground UI work in real product evidence"
+  default_prompt: "Use $anti-ui-slop to ground this interface in real product evidence and reject generic UI before shipping."
