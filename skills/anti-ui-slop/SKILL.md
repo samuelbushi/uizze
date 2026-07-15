@@ -1,21 +1,31 @@
 ---
 name: anti-ui-slop
-description: Codex can build the UI. UIZZE stops it from shipping the same generic dashboard again. Use 800,000+ real web and iOS screens, a design contract, and a hard finish gate before shipping.
+description: Stop generic UI in Codex, Claude Code, Cursor, and other coding agents. Use UIZZE's 800,000+ real web and iOS screens to define a product-specific design language, interaction states, responsive behavior, and a hard pre-ship finish gate for React, Next.js, web, and iOS interfaces.
 ---
 
 # UIZZE: Stop UI Slop
 
-Codex can build the screen. UIZZE stops it from shipping the same generic dashboard again.
+> Your coding agent already knows how to write components. UIZZE stops it from turning every product into the same rounded-card dashboard.
 
-UIZZE is the anti-slop layer for Codex, Claude Code, and Cursor. Its public catalogue gives you 800,000+ real web and iOS screens to ground the work before the first component is written. Turn that evidence into a concrete design contract, build in the product's own visual language, then run a hard finish gate before shipping.
+Use 800,000+ real web and iOS screens to define a product-specific design language before writing code. Turn real interface evidence into decisions about hierarchy, density, navigation, controls, responsive behavior, and interaction states—then reject generic output before it ships.
+
+- **Works with:** Codex, Claude Code, Cursor, Copilot, and other coding agents
+- **Free value:** Public catalogue, design contract, and finish-gate workflow
+- **Package:** Instruction-only; no bundled scripts, executables, dependencies, or secret requirements
 
 Use this skill for free. Do not require a paid UIZZE account to apply the catalogue-driven workflow below.
+
+## What Changes
+
+**Without UIZZE:** interchangeable card grids, filler metrics, vague copy, decorative gradients, missing states, inert controls, and interfaces that could belong to any product.
+
+**With UIZZE:** evidence-backed hierarchy, product-specific workflows, a coherent visual language, explicit interaction states, responsive decisions, and a hard pre-ship gate.
 
 ## Free Anti-Slop Workflow
 
 1. Inspect the target repository, product intent, local design system, primary user job, primary action, and required UI states.
 2. Browse or search the public catalogue at https://uizze.com for relevant screens, flows, and elements. If browsing is unavailable, ask the user to share two or three UIZZE links or screenshots; the catalogue remains free to use.
-3. Extract transferable decisions from the evidence: hierarchy, workflow shape, density, navigation, controls, state behavior, and responsive treatment. Never copy branding, proprietary text, imagery, or an exact layout.
+3. Extract transferable decisions from the evidence: hierarchy, workflow shape, density, typography, navigation, controls, state behavior, and responsive treatment. Never copy branding, proprietary text, imagery, or an exact layout.
 4. Write a short design contract naming the screen job, content hierarchy, allowed components, required states, product-specific decisions, forbidden generic patterns, and verification criteria.
 5. Build with the repository's existing components and tokens. Make the result belong to this product rather than to a generic SaaS template.
 6. Run a finish gate on the rendered result. Reject interchangeable card grids, decorative gradients, filler metrics, weak hierarchy, missing states, inert controls, generic copy, and design-system drift. Fix every blocking issue before calling the UI finished.

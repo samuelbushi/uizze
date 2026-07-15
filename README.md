@@ -2,7 +2,7 @@
 
 Stop UI slop before it ships.
 
-UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way to ground interface work in 800,000+ real web and iOS screens, turn the evidence into a product-specific design contract, and run a hard finish gate on the rendered result.
+UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way to ground interface work in 800,000+ real web and iOS screens, define a product-specific design language, and run a hard finish gate on the rendered result.
 
 The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
 
