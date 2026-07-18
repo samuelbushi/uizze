@@ -1,10 +1,23 @@
 # UIZZE
 
-Stop UI slop before it ships.
+Codex can build the UI. UIZZE stops it from shipping the same generic dashboard again.
 
 UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way to ground interface work in 800,000+ real web and iOS screens, define a product-specific design language, and run a hard finish gate on the rendered result.
 
 The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
+
+<p><a href="https://uizze.com"><strong>Explore UIZZE →</strong></a></p>
+
+<table>
+  <tr>
+    <th>Without product evidence</th>
+    <th>Grounded with UIZZE</th>
+  </tr>
+  <tr>
+    <td><img src="https://uizze.com/landing/before-uizze-simple-no-island.png" alt="Generic mobile interface created without UIZZE evidence" width="360"></td>
+    <td><img src="https://uizze.com/landing/after-uizze-simple-no-island.png" alt="Product-specific mobile interface grounded with UIZZE evidence" width="360"></td>
+  </tr>
+</table>
 
 ## Install the free workflow
 
