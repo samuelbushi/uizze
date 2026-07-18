@@ -1,0 +1,43 @@
+{
+  "name": "uizze",
+  "version": "1.0.0",
+  "description": "Ground interface work in 800,000+ real web and iOS screens and reject generic UI before shipping.",
+  "author": {
+    "name": "UIZZE",
+    "email": "business@uizze.com",
+    "url": "https://uizze.com"
+  },
+  "homepage": "https://uizze.com",
+  "repository": "https://github.com/samuelbushi/uizze",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "design",
+    "frontend",
+    "anti-slop",
+    "agent-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UIZZE",
+    "shortDescription": "Stop generic UI slop",
+    "longDescription": "Use real web and iOS interface evidence to define a product-specific design contract, implement required states and responsive behavior, and run a hard finish gate before shipping.",
+    "developerName": "UIZZE",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://uizze.com",
+    "privacyPolicyURL": "https://uizze.com/privacy",
+    "termsOfServiceURL": "https://uizze.com/terms",
+    "defaultPrompt": [
+      "Define a product-specific design contract for this interface, then implement it.",
+      "Review this UI for generic patterns and fix every blocking issue.",
+      "Plan this responsive interface from real product evidence and include every state."
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/uizze-logo.png",
+    "logo": "./assets/uizze-logo.png"
+  }
+}
