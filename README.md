@@ -4,7 +4,7 @@ Codex can build the UI. UIZZE stops it from shipping the same generic dashboard 
 
 UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way to ground interface work in 800,000+ real web and iOS screens, define a product-specific design language, and run a hard finish gate on the rendered result.
 
-The `anti-ui-slop` skill provides the catalogue-driven design workflow. The UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
+The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
 
 <p><a href="https://uizze.com"><strong>Explore UIZZE →</strong></a></p>
 
@@ -19,7 +19,7 @@ The `anti-ui-slop` skill provides the catalogue-driven design workflow. The UIZZ
   </tr>
 </table>
 
-## Install the workflow
+## Install the free workflow
 
 ### Codex, Claude Code, Cursor, and Copilot
 
@@ -42,18 +42,16 @@ codex plugin marketplace add samuelbushi/uizze
 
 Then open the UIZZE marketplace in Plugins and install UIZZE.
 
-## Example prompts
+Then ask your agent:
 
 ```text
 Use anti-ui-slop to build this interface from real product evidence and reject generic UI before shipping.
-Run the anti-ui-slop finish gate on this frontend and fix every blocking issue.
-Use anti-ui-slop to define a design contract for this product before implementing the page.
 ```
 
 ## What the skill does
 
 1. Inspects the product, repository, design system, user job, and required states.
-2. Uses the public catalogue at [uizze.com](https://uizze.com) as interface evidence when the user requests external reference research.
+2. Uses the free public catalogue at [uizze.com](https://uizze.com) as interface evidence.
 3. Converts that evidence into an explicit design contract.
 4. Builds in the product's own visual language.
 5. Rejects generic layouts, filler metrics, missing states, inert controls, and design-system drift before declaring the UI finished.
@@ -74,9 +72,9 @@ skills/
         └── openai.yaml
 ```
 
-## Privacy and security
+## UIZZE MCP
 
-Review the [UIZZE Privacy Policy](https://uizze.com/privacy) and this repository's [security reporting guidance](SECURITY.md).
+The free skill works without an account. When automated reference search and finish-gate tooling would materially improve the work, connect the full UIZZE MCP at [uizze.com](https://uizze.com).
 
 ## License
 
