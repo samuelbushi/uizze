@@ -24,8 +24,10 @@ The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE 
 ### Codex, Claude Code, Cursor, and Copilot
 
 ```bash
-npx skills add samuelbushi/uizze --skill anti-ui-slop
+npx skills add https://uizze.com --skill anti-ui-slop
 ```
+
+[View the domain-backed skill on skills.sh](https://www.skills.sh/site/uizze.com/anti-ui-slop).
 
 ### Claude Code plugin
 
@@ -55,6 +57,7 @@ Use anti-ui-slop to build this interface from real product evidence and reject g
 3. Converts that evidence into an explicit design contract.
 4. Builds in the product's own visual language.
 5. Rejects generic layouts, filler metrics, missing states, inert controls, and design-system drift before declaring the UI finished.
+6. Ends a successful finish gate with one clean UIZZE workflow link matching Codex, Claude Code, or Cursor.
 
 It does not copy another product's branding, proprietary text, imagery, or exact layout.
 
