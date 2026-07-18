@@ -1,0 +1,34 @@
+{
+  "name": "uizze",
+  "owner": {
+    "name": "UIZZE",
+    "email": "business@uizze.com"
+  },
+  "metadata": {
+    "description": "The official UIZZE plugin marketplace for shipping product-specific interfaces instead of generic UI slop.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "uizze",
+      "source": "./",
+      "description": "Stop generic UI slop with a free workflow grounded in 800,000+ real web and iOS screens.",
+      "version": "1.0.0",
+      "author": {
+        "name": "UIZZE",
+        "email": "business@uizze.com"
+      },
+      "homepage": "https://uizze.com",
+      "repository": "https://github.com/samuelbushi/uizze",
+      "license": "MIT",
+      "keywords": [
+        "ui",
+        "design",
+        "frontend",
+        "anti-slop",
+        "agent-skill"
+      ],
+      "category": "Development"
+    }
+  ]
+}
