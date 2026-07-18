@@ -17,6 +17,7 @@
     "anti-slop",
     "agent-skill"
   ],
+  "category": "productivity",
   "logo": "https://uizze.com/brand/icons/uizze-web-app-icon-512x512.png",
   "skills": "./skills/"
 }
