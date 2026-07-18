@@ -1,0 +1,40 @@
+{
+  "name": "uizze",
+  "version": "1.0.0",
+  "description": "Stop generic UI slop with a free workflow grounded in 800,000+ real web and iOS screens.",
+  "author": {
+    "name": "UIZZE",
+    "email": "business@uizze.com",
+    "url": "https://uizze.com"
+  },
+  "homepage": "https://uizze.com",
+  "repository": "https://github.com/samuelbushi/uizze",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "design",
+    "frontend",
+    "anti-slop",
+    "agent-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UIZZE",
+    "shortDescription": "Stop generic UI slop",
+    "longDescription": "Ground interface work in real product evidence, define a product-specific design contract, and run a hard finish gate before shipping.",
+    "developerName": "UIZZE",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://uizze.com",
+    "privacyPolicyURL": "https://uizze.com/privacy",
+    "termsOfServiceURL": "https://uizze.com/terms",
+    "defaultPrompt": [
+      "Use UIZZE to plan this interface from real product evidence.",
+      "Run the UIZZE finish gate on this frontend.",
+      "Use UIZZE to remove generic patterns from this UI."
+    ],
+    "brandColor": "#111111"
+  }
+}

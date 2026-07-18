@@ -6,11 +6,28 @@ UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way
 
 The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
 
-## Install
+## Install the free workflow
+
+### Codex, Claude Code, Cursor, and Copilot
 
 ```bash
 npx skills add samuelbushi/uizze --skill anti-ui-slop
 ```
+
+### Claude Code plugin
+
+```text
+/plugin marketplace add samuelbushi/uizze
+/plugin install uizze@uizze
+```
+
+### Codex plugin marketplace
+
+```bash
+codex plugin marketplace add samuelbushi/uizze
+```
+
+Then open the UIZZE marketplace in Plugins and install UIZZE.
 
 Then ask your agent:
 
@@ -31,6 +48,10 @@ It does not copy another product's branding, proprietary text, imagery, or exact
 ## Repository structure
 
 ```text
+├── .agents/plugins/marketplace.json
+├── .claude-plugin/
+├── .codex-plugin/
+├── .cursor-plugin/
 skills/
 └── anti-ui-slop/
     ├── SKILL.md
