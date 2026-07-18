@@ -5,7 +5,7 @@ UIZZE welcomes focused fixes that improve the clarity, portability, or reliabili
 Before opening a pull request:
 
 1. Keep the skill concise and agent-agnostic.
-2. Preserve the free catalogue workflow.
+2. Preserve the catalogue-driven workflow.
 3. Do not add unsupported product claims.
 4. Validate the skill metadata and test it on a real interface task.
 
