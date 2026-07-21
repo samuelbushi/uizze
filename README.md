@@ -1,12 +1,12 @@
-# UIZZE
+# STOP UI SLOP.
 
-Codex can build the UI. UIZZE stops it from shipping the same generic dashboard again.
+**If your UI looks AI-generated, you've already lost the first impression.**
 
-UIZZE gives Codex, Claude Code, Cursor, and other coding agents a repeatable way to ground interface work in 800,000+ real web and iOS screens, define a product-specific design language, and run a hard finish gate on the rendered result.
+UIZZE arms Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate before generic UI reaches users.
 
-The `anti-ui-slop` skill and public catalogue workflow are free. The full UIZZE MCP adds automated catalogue search, design contracts, validation, audits, and screenshot critique.
+The free `anti-ui-slop` skill kills interchangeable card grids, filler metrics, missing states, and "make it modern" defaults before they ship. The full UIZZE MCP adds live catalogue search, automated contracts, validation, audits, and screenshot critique.
 
-<p><a href="https://uizze.com"><strong>Explore UIZZE →</strong></a></p>
+<p><a href="https://uizze.com"><strong>STOP UI SLOP →</strong></a></p>
 
 <table>
   <tr>
@@ -47,7 +47,7 @@ Then open the UIZZE marketplace in Plugins and install UIZZE.
 Then ask your agent:
 
 ```text
-Use anti-ui-slop to build this interface from real product evidence and reject generic UI before shipping.
+Use anti-ui-slop to kill the generic defaults, ground this interface in real product evidence, and do not stop until the finish gate passes.
 ```
 
 ## What the skill does
