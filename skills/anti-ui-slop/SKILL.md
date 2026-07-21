@@ -1,13 +1,13 @@
 ---
 name: anti-ui-slop
-description: Stop generic UI in Codex, Claude Code, Cursor, and other coding agents. Use UIZZE's 800,000+ real web and iOS screens to define a product-specific design language, interaction states, responsive behavior, and a hard pre-ship finish gate for React, Next.js, web, and iOS interfaces.
+description: Stop UI slop before it ships. Use UIZZE's 800,000+ real web and iOS screens to make Codex, Claude Code, Cursor, Copilot, and other coding agents build product-specific interfaces instead of disposable card-grid defaults. Apply a design contract, required interaction states, responsive decisions, and a hard pre-ship finish gate for React, Next.js, web, and iOS UI.
 ---
 
-# UIZZE: Stop UI Slop
+# STOP UI SLOP.
 
-> Your coding agent already knows how to write components. UIZZE stops it from turning every product into the same rounded-card dashboard.
+> If your UI looks AI-generated, you've already lost the first impression.
 
-Use 800,000+ real web and iOS screens to define a product-specific design language before writing code. Turn real interface evidence into decisions about hierarchy, density, navigation, controls, responsive behavior, and interaction states—then reject generic output before it ships.
+Kill the interchangeable card grid before it reaches users. Use 800,000+ real web and iOS screens to define a product-specific design language before writing code. Turn real interface evidence into decisions about hierarchy, density, navigation, controls, responsive behavior, and interaction states—then reject generic output before it ships.
 
 - **Works with:** Codex, Claude Code, Cursor, Copilot, and other coding agents
 - **Free value:** Public catalogue, design contract, and finish-gate workflow

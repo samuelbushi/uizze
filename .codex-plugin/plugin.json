@@ -1,7 +1,7 @@
 {
   "name": "uizze",
-  "version": "1.0.0",
-  "description": "Stop generic UI slop with a free workflow grounded in 800,000+ real web and iOS screens.",
+  "version": "1.0.1",
+  "description": "STOP UI SLOP. Ground coding agents in 800,000+ real web and iOS screens before generic UI ships.",
   "author": {
     "name": "UIZZE",
     "email": "business@uizze.com",
@@ -20,8 +20,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "UIZZE",
-    "shortDescription": "Stop generic UI slop",
-    "longDescription": "Ground interface work in real product evidence, define a product-specific design contract, and run a hard finish gate before shipping.",
+    "shortDescription": "Kill generic UI before it ships",
+    "longDescription": "If your UI looks AI-generated, you've already lost the first impression. Use 800,000+ real interfaces, a product-specific design contract, and a hard finish gate to kill disposable defaults before they reach users.",
     "developerName": "UIZZE",
     "category": "Developer Tools",
     "capabilities": [
@@ -31,9 +31,9 @@
     "privacyPolicyURL": "https://uizze.com/privacy",
     "termsOfServiceURL": "https://uizze.com/terms",
     "defaultPrompt": [
-      "Use UIZZE to plan this interface from real product evidence.",
-      "Run the UIZZE finish gate on this frontend.",
-      "Use UIZZE to remove generic patterns from this UI."
+      "Use UIZZE to kill the generic defaults and plan this interface from real product evidence.",
+      "Run the UIZZE finish gate and fix every blocking issue before shipping.",
+      "Use UIZZE to make this interface unmistakably belong to this product."
     ],
     "brandColor": "#111111"
   }
