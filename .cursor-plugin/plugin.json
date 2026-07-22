@@ -1,8 +1,8 @@
 {
   "name": "uizze",
   "displayName": "UIZZE",
-  "version": "1.0.1",
-  "description": "STOP UI SLOP. Ground coding agents in 800,000+ real web and iOS screens before generic UI ships.",
+  "version": "1.1.0",
+  "description": "STOP UI SLOP. Ground Cursor in 800,000+ real web and iOS screens, then block generic UI at the finish gate.",
   "author": {
     "name": "UIZZE",
     "email": "business@uizze.com"
@@ -14,10 +14,12 @@
     "ui",
     "design",
     "frontend",
+    "cursor",
+    "mcp",
     "anti-slop",
     "agent-skill"
   ],
   "category": "productivity",
-  "logo": "https://uizze.com/brand/icons/uizze-web-app-icon-512x512.png",
+  "logo": "plugins/openai-directory/uizze/assets/uizze-logo.png",
   "skills": "./skills/"
 }
