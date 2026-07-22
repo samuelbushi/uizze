@@ -8,7 +8,7 @@
       "name": "uizze",
       "source": {
         "source": "url",
-        "url": "https://github.com/samuelbushi/uizze.git",
+        "url": "https://github.com/uizze/uizze.git",
         "ref": "main"
       },
       "policy": {

@@ -19,7 +19,7 @@ Use anti-ui-slop. Inspect this product before choosing a layout, write the desig
 Install the repository as a Claude Code plugin:
 
 ```text
-/plugin marketplace add samuelbushi/uizze
+/plugin marketplace add uizze/uizze
 /plugin install uizze@uizze
 ```
 
