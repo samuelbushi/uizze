@@ -79,6 +79,8 @@ skills/
 
 The free skill works without an account. When automated reference search and finish-gate tooling would materially improve the work, connect the full UIZZE MCP at [uizze.com](https://uizze.com).
 
+[View the canonical UIZZE MCP repository](https://github.com/aislon/uizze-mcp).
+
 [Compare UIZZE with Refero for coding-agent workflows](https://uizze.com/refero-alternative).
 
 [Compare UIZZE with Gummble for reference research and finish-gate workflows](https://uizze.com/gummble-alternative).
