@@ -1,6 +1,6 @@
 {
   "name": "uizze",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "STOP UI SLOP. Ground coding agents in 800,000+ real web and iOS screens before generic UI ships.",
   "author": {
     "name": "UIZZE",
@@ -22,6 +22,7 @@
     "displayName": "UIZZE",
     "shortDescription": "Kill generic UI before it ships",
     "longDescription": "If your UI looks AI-generated, you've already lost the first impression. Use 800,000+ real interfaces, a product-specific design contract, and a hard finish gate to kill disposable defaults before they reach users.",
+    "composerIcon": "./plugins/openai-directory/uizze/assets/uizze-logo.png",
     "developerName": "UIZZE",
     "category": "Developer Tools",
     "capabilities": [
