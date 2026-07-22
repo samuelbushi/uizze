@@ -1,5 +1,9 @@
 # STOP UI SLOP.
 
+[![HOL Plugin Scanner](https://github.com/samuelbushi/uizze/actions/workflows/hol-plugin-scanner.yml/badge.svg)](https://github.com/samuelbushi/uizze/actions/workflows/hol-plugin-scanner.yml)
+[![Latest release](https://img.shields.io/github/v/release/samuelbushi/uizze)](https://github.com/samuelbushi/uizze/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
+
 **If your UI looks AI-generated, you've already lost the first impression.**
 
 UIZZE arms Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate before generic UI reaches users.
