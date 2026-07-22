@@ -1,0 +1,53 @@
+name: Domain Skill Install
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/domain-skill-install.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/domain-skill-install.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+
+      - name: Install the public UIZZE skill
+        working-directory: ${{ runner.temp }}
+        run: >-
+          npx --yes skills@1.5.20 add https://uizze.com
+          --skill anti-ui-slop
+          --agent codex
+          --yes
+          --copy
+          --metadata '{"source":"uizze-publisher-ci","exclude_from_marketing_metrics":true}'
+
+      - name: Verify the installed skill
+        working-directory: ${{ runner.temp }}
+        shell: bash
+        run: |
+          skill=".agents/skills/anti-ui-slop/SKILL.md"
+          test -s "$skill"
+          grep -qx 'name: anti-ui-slop' "$skill"
+          grep -qx '# STOP UI SLOP.' "$skill"
+          grep -Fq 'https://uizze.com' "$skill"
+          if grep -Fq 'github.com' "$skill"; then
+            echo "The domain-backed skill must keep uizze.com as its public destination."
+            exit 1
+          fi
