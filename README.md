@@ -79,6 +79,8 @@ skills/
 
 The free skill works without an account. When automated reference search and finish-gate tooling would materially improve the work, connect the full UIZZE MCP at [uizze.com](https://uizze.com).
 
+[Compare UIZZE with Refero for coding-agent workflows](https://uizze.com/refero-alternative).
+
 ## License
 
 [MIT](LICENSE)
