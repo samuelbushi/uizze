@@ -1,6 +1,6 @@
 ---
 name: anti-ui-slop
-description: Stop generic AI-generated UI by grounding React, Next.js, web, and iOS work in real product evidence, defining a product-specific design contract, implementing interaction and responsive states, and enforcing a hard pre-ship finish gate.
+description: Stop generic UI by grounding React, Next.js, web, and iOS work in real product evidence, defining a product-specific design contract, implementing interaction and responsive states, and enforcing a hard pre-ship finish gate.
 ---
 
 # UIZZE: Stop UI Slop
