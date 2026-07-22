@@ -1,0 +1,29 @@
+name: UIZZE UI Slop Gate
+
+on:
+  pull_request:
+    paths:
+      - "**/*.css"
+      - "**/*.html"
+      - "**/*.jsx"
+      - "**/*.scss"
+      - "**/*.svelte"
+      - "**/*.tsx"
+      - "**/*.vue"
+
+permissions:
+  contents: read
+
+jobs:
+  ui-finish-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Stop UI slop
+        uses: samuelbushi/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba # v1.0.2
+        with:
+          fail-on: error

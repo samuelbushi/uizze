@@ -54,6 +54,12 @@ Then ask your agent:
 Use anti-ui-slop to kill the generic defaults, ground this interface in real product evidence, and do not stop until the finish gate passes.
 ```
 
+## Block generic UI in pull requests
+
+The free [UIZZE UI Slop Gate Action](https://github.com/samuelbushi/uizze-ui-slop-gate) checks changed frontend files for inert controls, missing states, hardcoded token drift, and generic dashboard/card-grid cues. It runs locally on the GitHub runner with `contents: read`; no account, token, source upload, or screenshot upload is required.
+
+Copy the pinned [least-privilege workflow](.github/workflows/uizze-ui-review.yml), or follow the exact [Codex, Claude Code, Cursor, and Copilot workflows](examples/agent-workflows.md).
+
 ## What the skill does
 
 1. Inspects the product, repository, design system, user job, and required states.
