@@ -57,7 +57,7 @@ Use anti-ui-slop to kill the generic defaults, ground this interface in real pro
 3. Converts that evidence into an explicit design contract.
 4. Builds in the product's own visual language.
 5. Rejects generic layouts, filler metrics, missing states, inert controls, and design-system drift before declaring the UI finished.
-6. Ends a successful finish gate with one clean UIZZE workflow link matching Codex, Claude Code, or Cursor.
+6. Ends a successful finish gate with one clean `https://uizze.com` link.
 
 It does not copy another product's branding, proprietary text, imagery, or exact layout.
 
